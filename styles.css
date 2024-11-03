@@ -1,0 +1,868 @@
+header {
+    padding: 25px;
+    max-width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: clip;  
+}
+
+a {
+    color:rgb(255, 255, 255);
+    padding: 8px;
+    border: solid 1px white;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: rgb(0, 96, 13);
+}
+.temp {
+    color:rgb(255, 255, 255);
+    padding: 8px;
+    border: solid 1px white;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: rgb(0, 96, 13);
+    opacity: 0.5;
+}
+
+a:hover {
+    background-color: rgb(236, 118, 0);
+    color: white;
+}
+
+a:active {
+    background-color: rgb(236, 118, 0);
+    color: white;
+}
+
+li {
+    display: inline-block;
+    margin: 10px;
+}
+li:visited  {
+    background-color: #a87312;
+}
+
+li:hover {
+    transform: scale(1.1);
+    transition: 250ms;
+    
+}
+
+.navbar {
+    background-color: rgb(18, 191, 188);
+    width: 1280px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.navibar {
+    padding-left: 90px;
+}
+/*banner section*/
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/extention/images/ecopark2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 1280px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: stretch;
+}
+
+.logo {
+    height: 200px;
+    width: 200px;
+    background-color: rgba(232, 232, 232, 0.757);
+    border-radius: 100px;
+    margin: 100px 30px 100px 100px;
+}
+.heading {
+    display: inline-block;
+}
+
+span.bold {
+    color: rgb(153, 255, 116);
+}
+div.heading {
+    padding: 20px;
+    margin: auto 0;
+    color: rgb(220, 220, 220);
+}
+
+h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+span.h3 {
+    font-weight: 500;
+    
+}
+/*news section*/
+.post-1 {
+    background-color: rgba(252, 167, 63, 0.679);
+    width: 1280px;
+    max-width: 100%;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+.image {
+    height: 200px;
+    width: 250px;
+    z-index: 0;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.news {
+    display: inline-block;
+}
+
+a.view {
+    border-radius: 20px;
+    padding: 8px 20px 8px 20px;
+    font-size: 10px;
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a.view:hover {
+    transform: scale(1.1);
+    transition: 250ms;
+}
+
+.post-1 {
+    display: flex;
+    justify-content: start;
+    gap: 30px;
+    width: 1280px;
+    max-width: 100%;
+}
+
+.news.change{
+    margin-left: 100px;
+}
+
+.inside {
+    display: inline-block;
+    width: 250px;
+    height: 200px;
+    /* background-color: yellow; */
+    position: relative;
+}
+
+.inside.cont {
+    background-color: black;
+    z-index: 1;
+    border-radius: 20px;
+}
+
+.text.info {
+    position: absolute;
+    top: 80px;
+    padding-right: 50px;
+    margin: 20px;
+    justify-content: end;
+    text-align: start;  
+    color: white;
+    font-weight: 100;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: smaller; 
+    word-spacing: 2px;
+    z-index: 3;
+}
+
+.image.main {
+    opacity: 0.07;
+    position: absolute;
+    right: 105px;
+    bottom: 40px;
+}
+
+.latest {
+    position: absolute;
+    top: 20px;
+    margin: 20px;
+    justify-content: end;
+    text-align: start;
+}
+
+.caption {
+    margin-top: -10px;
+    line-height: 1.5;
+    font-size: 14px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.empty {
+    background-color: black;
+    height: 200px;
+    width: 250px;
+    position: absolute;
+    top: 0px;
+    z-index: 0;
+    opacity: 0.45;
+    color: transparent;
+    border-radius: 20px;
+}
+
+.inside.cont {
+    margin: 0px 10px;
+}
+/*Committee*/
+.committee {
+    background-color: bisque;
+    text-align: center;
+    max-width: 100%;
+    width: 1280px;
+    margin: -20px auto;
+    padding-top: 40px;
+    height: 650px;
+}
+
+.texting {
+    padding-bottom: 50px;
+}
+
+h2.testing {
+    text-transform: uppercase;
+}
+
+p.edit {
+    line-height: 1.5;
+    padding-bottom: 15px;
+}
+
+.profile {
+    display: inline-block;
+    /* justify-content: center; */
+    position: relative;
+    width: 300px;
+    padding-left: 50px;
+    gap: 20px;
+}
+
+.one {
+    display: inline-block;
+    position: relative;
+    z-index: 3;
+    margin-left: -40px;
+}
+
+.two {
+    display: inline-block;
+    position: relative;
+    z-index: 3;
+}
+
+.three {
+    display: inline-block;
+    position: relative;
+    z-index: 3;
+}
+
+.icon {
+    display: block;
+    height: 100px;
+    width: 100px;
+    border-radius: 80px;
+    border: solid 1px rgb(0, 96, 13);
+    margin-left: 93px;
+    z-index: 3;
+}
+
+.white {
+    display: block;
+    background-color: blueviolet;
+    width: 250px;
+    height: 250px;
+    align-content: center;
+    position: absolute;
+    top: 50px;
+    z-index: -1;
+    color: black;
+    background-color: azure;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+.bg {
+    display: block;
+    height: 250px;
+    width: 250px;
+    padding: 15px;
+    border-radius: 30px;
+    /* transform: rotate(45deg); */
+    z-index: -2;
+    position: absolute;
+    top: 50px;
+    display: block;
+}
+
+.wan {
+    background-color: aquamarine;
+
+    transform: rotate(15deg);
+}
+
+.too {
+    background-color: rgb(248, 159, 75);
+    transform: rotate(-15deg);
+}
+
+.tree {
+    background-color: rgb(240, 140, 255);
+    transform: rotate(15deg);
+}
+/* .Committee {
+    width: 1280px;
+    max-width: 1280px;
+    padding: 40px;
+    background-color: yellow;
+    text-align: center;
+    justify-content: end;
+    
+}
+
+.texting {
+    text-align: center;
+}
+
+.cards {
+    display: inline-block;
+    width: 1280px;
+    max-width: 100%;
+    background-color: bisque;
+    
+}
+.profile.one {
+    position: relative;
+    width: 300px;
+    display: inline-block;
+    padding: 0 40px;
+    background-color: aquamarine;
+}
+
+.icon {
+    display: inline-block;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: rgb(81, 204, 93);
+    z-index: 2;
+    margin-left: 100px;
+    margin: 10px 25px 10px 25px;
+    
+}
+
+.white {
+    position: absolute;
+    background-color: rgb(209, 209, 209);
+    top: 50px;
+    width: 300px;
+    height: 300px;
+    align-content: center;
+    z-index: 1;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.position {
+    margin-top: -10px;
+} */
+/* Membership */
+.membership {
+    width: 1280px;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    background-image: url("/extention/images/community1.jpg");
+    position: relative;
+    z-index: 1;
+    background-color: aqua;
+    padding: 60px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.join {
+    /* background-image: url("/extention/images/community1.jpg"); */
+    display: grid; /*use grid to set gap
+    z-index: 1;
+    width: 1280px;
+    height: 100%;
+    max-width: 100%;
+    /* position: absolute; */
+    top:20px;
+    margin: auto;
+    text-align: center;
+    color: azure;
+    gap: 10px;
+
+}
+
+/* .mem {
+    background-color: rgb(59, 3, 227);
+} */
+.mem.a {
+    display: block;
+}
+
+p.mem {
+    margin: 0px 0 5px 0;
+}
+
+a.a {
+    /* margin: 0 200px; */
+    display: block;
+    width: 100px;
+    margin: 10px auto 10px auto;
+}
+
+img.a {
+    margin: auto;
+    display: block;
+}
+
+.rempty {
+    background-color: rgb(2, 35, 28);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    /* z-index: 0; */
+    opacity: 0.90;
+    color: transparent;
+    /* border-radius: 20px; */
+    z-index: -1;
+    top: 0px;
+    bottom: 0px;
+}
+
+.heading.mem {
+    font-size: 32px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 3px;
+}
+
+.caption.mem {
+    font-size: 18px;
+    letter-spacing: 0px;
+}
+
+.span.mem {
+    font-size: 16px;
+}
+
+/* Footer */
+.footie {
+    width: 1280px;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: block;
+    background-color: #73add7;
+}
+
+.image.footer {
+    height: 50px;
+    width: 50px;
+    background-color: rgba(232, 232, 232, 0.757);
+    border-radius: 100px;
+    /* margin: 100px 30px 100px 100px; */
+}
+
+.about.foot {
+    width: 535px;
+    max-width: 100%;
+    /* background-color: bisque; */
+}
+
+.footer.sec {
+    display: inline-block;
+}
+/* .footer.sec.cont-2 {
+    width: 200px;
+    max-width: 200px;
+    background-color: aliceblue;
+    background-color: aliceblue;
+} */
+
+.photo.footer {
+    width: 500px;
+    height: 350px;
+}
+/* .footer.images {
+    background-image: url("/extention/images/ecoparkescape.jpeg");
+    height: 400px;
+    width: 500px;
+} */
+
+.fa {
+    display: inline-block;
+    border-radius: 20px;
+    /* padding: 15px; */
+}
+
+.icon a.fa {
+    display: inline-block;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    padding: 8px 12px;
+}
+  
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #E1306C;
+    color: white;
+    padding: 8px 10px;
+}
+
+.fa-yahoo {
+    background: #430297;
+    color: white;
+    padding: 8px 9px;
+}
+
+/* .con.foot {
+    gap: 04px 10px;
+    display: grid;
+} */
+
+a.footer {
+    background-color: #73add7;
+    border: #73add7 ;
+    color:rgb(0, 0, 0);
+}
+
+a.footer+a.footer::before {
+    content: "|";
+    letter-spacing: 20px;
+}
+
+a.foots {
+    background-color: #73add7;
+    border: #73add7 ;
+    color:rgb(27, 80, 34);
+    text-decoration: underline;
+}
+
+.footer.sec.cont-1 {
+    margin: 60px 60px 60px 140px;
+    /* margin: 0 auto; */
+    background-color: #430297;
+    width: 535px;
+    max-width: 100%;
+}
+
+.footer.sec.cont-2 {
+    /* margin: 0 auto; */
+    background-color: #430297;
+    width: 500px;
+    height: 350px;
+    max-width: 100%;
+    padding-top: 20px;
+}
+/*temp*/
+/* .satu {
+    display: inline-block;
+} */
+.satu {
+    background-color: rgb(71, 178, 220);
+    width: 1280px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+ }
+
+.dua {
+    /* background-color: #430297; */
+    width: 552px;
+    display: block;
+    height: 360px;
+    max-height: 100%;
+    padding-left: 140px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.tiga {
+    /* background-color: #4c6de5; */
+    width: 452px;
+    display: block;
+    max-height: 100%;
+    height: 310px;
+    margin: 10px;
+    padding-right: 40px;
+}
+
+.enam {
+    padding: 26px 0px 10px 10px;
+}
+.tujuh {
+    height: 50px;
+    width: 50px;
+    background-color: rgba(232, 232, 232, 0.757);
+    border-radius: 100px;
+}
+.empatbelas {
+    width: 452px;
+    height: 310px;
+    display: block;
+    border-radius: 50px;
+    border: solid 1px rgb(236, 118, 0);
+}
+
+.dua, .tiga {
+    display: inline-block;
+}
+
+a.duabelas {
+    background-color: transparent;
+    border: #73add7 ;
+    color:rgb(0, 0, 0);
+    cursor: default;
+}
+
+a.duabelas.two::before {
+    content: "|";
+    letter-spacing: 10px;
+}
+
+a.tigabelas {
+    background-color: transparent;
+    border: #73add7 ;
+    color:rgb(27, 80, 34);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* NEWS PAGE*/
+.containerz.headz {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/extention/images/ecoparkescape.jpeg");
+    background-position-x:center;
+    background-position-y: -900px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: #430297;
+    width: 1280px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: stretch;
+}
+
+.bannerz {
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/extention/images/ecoparkescape.jpeg"); */
+    background-color: #0000009f;
+    width: 1280px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+.postz-1 {
+    background-color: rgba(252, 167, 63, 0.679);
+    width: 1280px;
+    max-width: 100%;
+    margin: auto;
+    /* padding-top: 60px; */
+    /* padding-bottom: 80px; */
+}
+
+.imagez {
+    height: 200px;
+    width: 250px;
+    z-index: 0;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.newz {
+    display: inline-block;
+}
+
+.postz-1.onez {
+    display: flex;
+    justify-content: start;
+    /* gap: 30px; */
+    width: 1280px;
+    max-width: 100%;
+    padding-top: 40px;
+}
+.postz-1.twoz {
+    display: flex;
+    justify-content: start;
+    /* gap: 30px; */
+    width: 1280px;
+    max-width: 100%;
+}
+
+.postz-1.threez {
+    display: flex;
+    justify-content: start;
+    /* gap: 30px; */
+    width: 1280px;
+    max-width: 100%;
+    padding-bottom: 40px;
+}
+
+.newz.changez{
+    margin: auto;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.insidez {
+    display: inline-block;
+    width: 250px;
+    height: 200px;
+    /* background-color: yellow; */
+    position: relative;
+}
+
+.insidez.contz {
+    background-color: black;
+    z-index: 1;
+    border-radius: 20px;
+}
+
+.textz.infoz {
+    position: absolute;
+    top: 80px;
+    padding-right: 50px;
+    margin: 20px;
+    justify-content: end;
+    text-align: start;  
+    color: white;
+    font-weight: 100;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: smaller; 
+    word-spacing: 2px;
+    z-index: 3;
+}
+
+.imagez.main {
+    opacity: 0.07;
+    position: absolute;
+    right: 105px;
+    bottom: 40px;
+}
+
+.latest {
+    position: absolute;
+    top: 20px;
+    margin: 20px;
+    justify-content: end;
+    text-align: start;
+}
+
+.zempty {
+    background-color: black;
+    height: 200px;
+    width: 250px;
+    position: absolute;
+    top: 0px;
+    z-index: 0;
+    opacity: 0.45;
+    color: transparent;
+    border-radius: 20px;
+}
+
+.insidez.contz {
+    margin: 0px 50px;
+}
+
+.road {
+    width: 1280px;
+    max-width: 100%;
+    margin: auto;
+    padding: 20px 0 0px 0;
+    text-align: center;
+    background-color: #a87312;
+}
+
+.headingx {
+    width: 1280;
+    max-width: 50%;
+    margin: auto;
+    display: block;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.jalan {
+    display: inline-block;
+    background-color: white;
+    /* padding: 0px 20px; */
+    margin: 10px;
+    border-radius: 10px;
+    max-height: 90px;
+}
+
+.jalan h4 {
+    text-transform: uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    /* line-height: 10px; */
+    letter-spacing: -0.5px;
+    text-align: left;
+    padding-bottom: 5px;
+    border-bottom: solid 5px black;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(12, 60, 15);
+    margin-top: 10px;
+}
+
+.jalan p {
+    text-transform: uppercase;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* line-height: 10px; */
+    padding-bottom: 10px;
+    font-size: 18px;
+    text-align: left;
+    margin-top: -22px;
+    color: rgb(9, 88, 39);
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 400;
+
+}
+
+span.u8 {
+    color: rgb(255, 159, 57);
+}
+
+.roadname {
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #09695f;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.maps {
+    width: 1280px;
+    max-width: 100%;
+    margin: auto;
+    justify-content: stretch;
+}
